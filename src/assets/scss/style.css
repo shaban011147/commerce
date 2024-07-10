@@ -23281,6 +23281,21 @@ readers do not read off random characters that represent icons */
   opacity: 0.75;
 }
 
+@font-face {
+  font-family: Integral CF;
+  src: url("../fonts/Fontspring-DEMO-integralcf-extrabold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Integral CF;
+  src: url("../fonts/Fontspring-DEMO-integralcf-bold");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Integral CF;
+  src: url("../fonts/Araboto-Black.ttf");
+  font-weight: 800;
+}
 p {
   padding: 0;
   margin: 0;
@@ -23628,14 +23643,14 @@ input[type=submit]:hover {
 }
 
 .black {
-  display: flex;
-  justify-content: center;
   background-color: #000000;
   align-items: center;
   padding-top: 9px;
   padding-bottom: 10px;
+  position: relative;
 }
 .black p {
+  text-align: center;
   color: #FFFFFF;
   font-family: Satoshi;
   font-size: 14px;
@@ -23643,13 +23658,18 @@ input[type=submit]:hover {
   line-height: 18.9px;
   margin-right: 5px;
 }
-.black a {
+.black p a {
   text-decoration: underline;
   color: #FFFFFF;
   font-family: Satoshi;
   font-size: 14px;
   font-weight: 500;
   line-height: 18.9px;
+}
+.black i {
+  color: white;
+  position: absolute;
+  right: 8%;
 }
 
 @media (min-width: 767px) {
@@ -23703,8 +23723,29 @@ input[type=submit]:hover {
   color: #000000;
 }
 
+.slider-arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: -10px;
+  left: 45%;
+}
+.slider-arrow i {
+  color: #000;
+}
+
 .landing {
+  min-height: calc(100vh - 13px);
   background-color: #F2F0F1;
+}
+.landing img {
+  min-height: 100%;
+}
+.landing .container .slider-arrow1 {
+  position: absolute;
+  width: 50px;
+  background-color: red;
+  height: 50px;
 }
 .landing .container h2, .landing .container .h2 {
   font-family: Integral CF;
@@ -23716,6 +23757,13 @@ input[type=submit]:hover {
 @media (max-width: 767px) {
   .landing .container h2, .landing .container .h2 {
     margin-top: 40px;
+    font-size: 36px;
+    max-width: 315px;
+    font-family: Integral CF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
   }
 }
 .landing .container p {
@@ -23725,6 +23773,16 @@ input[type=submit]:hover {
   line-height: 22px;
   margin-bottom: 32px;
   margin-top: 32px;
+}
+@media (max-width: 767px) {
+  .landing .container p {
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    max-width: 358px;
+  }
 }
 .landing .container .btn {
   background-color: #000000;
@@ -23756,6 +23814,7 @@ input[type=submit]:hover {
     margin-top: 28px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
 }
 .landing .container .span0 .span1 {
@@ -23800,12 +23859,24 @@ input[type=submit]:hover {
   color: #000000;
   margin-bottom: 55px;
 }
+@media (max-width: 767) {
+  .compound h2, .compound .h2 {
+    font-family: Integral CF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;
+  }
+}
 .compound .container .box .content h5, .compound .container .box .content .h5 {
   font-family: Satoshi;
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
+  text-align: left;
   color: #000000;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 .compound .container .box .content i {
   color: #FFC633;
@@ -23824,6 +23895,7 @@ input[type=submit]:hover {
 }
 .compound .container .box .content .span0 {
   align-items: center;
+  margin-top: 8px;
 }
 .compound .container .box .content .span0 span {
   margin-right: 12px;
@@ -23912,8 +23984,6 @@ input[type=submit]:hover {
 }
 @media (max-width: 767px) {
   .container .browse img {
-    min-width: 310px;
-    min-height: 190px;
     margin-bottom: 20px;
   }
 }
@@ -23927,6 +23997,14 @@ input[type=submit]:hover {
   margin-top: 80px;
   margin-bottom: 40px;
   gap: 10px;
+}
+@media (max-width: 767px) {
+  .our-happy h2, .our-happy .h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+  }
 }
 .our-happy .box {
   max-width: 360px;
@@ -24040,7 +24118,10 @@ footer .container .stay h2, footer .container .stay .h2 {
 }
 @media (max-width: 767px) {
   footer .container .stay h2, footer .container .stay .h2 {
-    padding: 32px;
+    margin-bottom: 22px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
   }
 }
 footer .container .row {
@@ -24164,34 +24245,35 @@ footer .copyright .pay i {
 }
 .t-shirt .container .pic-Graphic {
   gap: 40px;
-  flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+  .t-shirt .container .pic-Graphic {
+    flex-wrap: wrap;
+  }
 }
 .t-shirt .container .pic-Graphic .pic .big-small {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
   gap: 14px;
 }
 @media (max-width: 767px) {
-  .t-shirt .container .pic-Graphic .pic .big-small .small {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media (max-width: 767px) {
-  .t-shirt .container .pic-Graphic .pic .big-small .small img {
-    display: flex;
+  .t-shirt .container .pic-Graphic .pic .big-small {
+    flex-wrap: wrap;
   }
 }
 .t-shirt .container .pic-Graphic .pic .big-small .big img {
   border-radius: 16px;
-  max-width: 444px;
 }
 .t-shirt .container .pic-Graphic .pic .big-small .small {
-  display: flex;
   flex-direction: column;
-  gap: 14px;
-  max-width: 152px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .t-shirt .container .pic-Graphic .pic .big-small .small {
+    align-items: center;
+    flex-direction: row;
+  }
 }
 .t-shirt .container .pic-Graphic .Graphic h2, .t-shirt .container .pic-Graphic .Graphic .h2 {
   font-family: Integral CF;
@@ -24199,6 +24281,14 @@ footer .copyright .pay i {
   font-weight: 700;
   line-height: 48px;
   text-align: left;
+}
+@media (max-width: 767px) {
+  .t-shirt .container .pic-Graphic .Graphic h2, .t-shirt .container .pic-Graphic .Graphic .h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+  }
 }
 .t-shirt .container .pic-Graphic .Graphic .star {
   color: #FFC633;
@@ -24309,12 +24399,12 @@ footer .copyright .pay i {
   margin-top: 24px;
   padding-top: 24px;
 }
+.t-shirt .container .pic-Graphic .Graphic .size {
+  flex-wrap: wrap;
+}
 .t-shirt .container .pic-Graphic .Graphic .size .btn {
   padding: 12px 24px;
   font-family: Satoshi;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 21.6px;
   text-align: left;
   color: rgba(0, 0, 0, 0.6);
   background-color: #F0F0F0;
@@ -24330,7 +24420,6 @@ footer .copyright .pay i {
 }
 .t-shirt .container .pic-Graphic .Graphic .cart :first-child {
   font-family: Satoshi;
-  font-size: 16px;
   font-weight: 500;
   line-height: 21.6px;
   text-align: left;
@@ -24341,8 +24430,12 @@ footer .copyright .pay i {
   margin-right: 20px;
   font-family: Satoshi;
   font-size: 16px;
-  font-weight: 500;
   line-height: 21.6px;
+}
+@media (max-width: 767px) {
+  .t-shirt .container .pic-Graphic .Graphic .cart .btn {
+    font-size: 11px;
+  }
 }
 .t-shirt .container .pic-Graphic .Graphic .cart .btn i {
   width: 18.75px;
@@ -24441,7 +24534,6 @@ footer .copyright .pay i {
   margin: auto;
   background-color: #000000;
   color: white;
-  padding: 15px 45px;
   border-radius: 22px;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -24451,24 +24543,110 @@ footer .copyright .pay i {
   color: #000000;
 }
 .all-reviews .reviews .selected {
+  align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 .all-reviews .reviews .selected img {
-  padding: 12px;
   background-color: #F0F0F0;
   border-radius: 50%;
+  width: 20px;
+  height: 20px;
 }
 .all-reviews .reviews .selected .form {
-  padding: 13px 57px 13px 20px;
   border: none;
-  border-radius: 20px;
+  border-radius: 16px;
   background-color: #F0F0F0;
+}
+@media (max-width: 767px) {
+  .all-reviews .reviews .selected .form {
+    display: none;
+  }
+}
+
+.your-cart .container .cont {
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  padding: 20px 24px 30px 24px;
+}
+@media (max-width: 767px) {
+  .your-cart .container .cont {
+    margin-bottom: 40px;
+  }
+}
+.your-cart .container .cont .box1 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.your-cart .container .cont .box1 img {
+  margin-right: 24px;
+  max-height: 99px;
+}
+.your-cart .container .cont .box1 .qwer h5, .your-cart .container .cont .box1 .qwer .h5 {
+  font-family: Satoshi;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+@media (max-width: 767px) {
+  .your-cart .container .cont .box1 .qwer h5, .your-cart .container .cont .box1 .qwer .h5 {
+    font-size: 16px;
+  }
+}
+.your-cart .container .cont .box1 .qwer .Gradient2 .btn {
+  background-color: #F0F0F0;
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 12px 22px;
+  margin-right: 5px;
+}
+.your-cart .container .cont .box1 .qwer .Gradient2 .btn span {
+  margin-left: 10px;
+}
+.your-cart .container .cont .box1 .qwer .Gradient2 .btn i {
+  color: rgba(0, 0, 0, 0.6);
+}
+.your-cart .container .cont .box1 .qwer .Gradient2 .btn:hover {
+  color: #FFFFFF;
+  background-color: #000000;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.your-cart .container .cont .box1 .qwer .Gradient2 .btn:hover i {
+  color: #FFFFFF;
+}
+.your-cart .container .form {
+  border: none;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.your-cart .container h2, .your-cart .container .h2 {
+  font-family: Integral CF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 24px;
 }
 .your-cart .container .box {
   border: 1px solid rgba(0, 0, 0, 0.1019607843);
   padding: 20px 24px 30px 24px;
-}
-.your-cart .container .box h5, .your-cart .container .box .h5 {
+  max-width: 505px;
+  max-height: 458px;
+  margin-left: 20px;
   font-family: Satoshi;
   font-size: 24px;
   font-weight: 700;
@@ -24477,11 +24655,16 @@ footer .copyright .pay i {
   color: #000000;
   padding-bottom: 24px;
 }
-.your-cart .container .box .Order .active {
+@media (max-width: 767px) {
+  .your-cart .container .box {
+    width: 100%;
+  }
+}
+.your-cart .container .Order .active {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1019607843);
   margin-bottom: 20px;
 }
-.your-cart .container .box .Order .vector .total {
+.your-cart .container .Order .vector .total {
   display: block;
   font-family: Satoshi;
   font-size: 20px;
@@ -24490,7 +24673,7 @@ footer .copyright .pay i {
   text-align: left;
   color: #000000;
 }
-.your-cart .container .box .Order .vector .active2 {
+.your-cart .container .Order .vector .active2 {
   font-family: Satoshi;
   font-size: 20px;
   font-weight: 700;
@@ -24498,7 +24681,7 @@ footer .copyright .pay i {
   text-align: right;
   color: #FF3333;
 }
-.your-cart .container .box .Order .vector :first-child {
+.your-cart .container .Order .vector :first-child {
   font-family: Satoshi;
   font-size: 20px;
   font-weight: 400;
@@ -24507,18 +24690,25 @@ footer .copyright .pay i {
   color: rgba(0, 0, 0, 0.6);
   padding-bottom: 20px;
 }
-.your-cart .container .box .Order .vector :last-child {
+.your-cart .container .Order .vector :last-child {
   font-family: Satoshi;
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
   text-align: right;
 }
-.your-cart .container .box .code img {
+@media (max-width: 767px) {
+  .your-cart .container .Order .vector :last-child {
+    font-weight: 400px;
+    font-size: 14px;
+    color: red;
+  }
+}
+.your-cart .container .code img {
   margin-right: -40px;
   z-index: 333;
 }
-.your-cart .container .box .code input {
+.your-cart .container .code input {
   flex: 1;
   padding: 12px auto 12px 32px;
   background-color: #F0F0F0;
@@ -24526,13 +24716,13 @@ footer .copyright .pay i {
   margin-right: 13px;
   border: none;
 }
-.your-cart .container .box .code ::-moz-placeholder {
+.your-cart .container .code ::-moz-placeholder {
   padding-left: 50px;
 }
-.your-cart .container .box .code ::placeholder {
+.your-cart .container .code ::placeholder {
   padding-left: 50px;
 }
-.your-cart .container .box .code .btn {
+.your-cart .container .code .btn {
   padding: 13px 32px;
   font-family: Satoshi;
   font-size: 16px;
@@ -24541,16 +24731,16 @@ footer .copyright .pay i {
   color: #FFFFFF;
   background-color: #000000;
 }
-.your-cart .container .box .code .btn:hover {
+.your-cart .container .code .btn:hover {
   color: #000000;
   background-color: #F0F0F0;
   transition: 0.6px;
 }
-.your-cart .container .box i {
+.your-cart .container i {
   color: #FFFFFF;
   margin-left: 10px;
 }
-.your-cart .container .box a {
+.your-cart .container a {
   margin-top: 43px;
   padding: 13px;
   border-radius: 25px;
@@ -24563,73 +24753,56 @@ footer .copyright .pay i {
   color: #FFFFFF;
   background-color: #000000;
 }
-.your-cart .container .box a:hover {
+.your-cart .container a:hover {
   color: #000000;
   background-color: #F0F0F0;
   transition: 0.6px;
 }
-.your-cart .container .box a:hover i {
+.your-cart .container a:hover i {
   color: #000000;
 }
-.your-cart .container .box0 {
-  display: flex;
-  border: 1px solid rgba(0, 0, 0, 0.1019607843);
-  padding-left: 20px;
-  padding-right: 20px;
+
+.casual .compound {
+  margin-top: -50px;
 }
-.your-cart .container .box0 .imges img {
-  margin-top: 24px;
-  margin-bottom: 24px;
+@media (max-width: 767px) {
+  .casual .compound {
+    margin-top: 10px;
+  }
+  .casual .compound .box {
+    margin-top: 20px;
+  }
 }
-.your-cart .container .box0 .cont {
-  padding-right: 24px;
+.casual .compound .rorl {
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+  margin-top: 32px;
 }
-.your-cart .container .box0 .cont .box1 {
-  padding-bottom: 24px;
-  padding-top: 24px;
-}
-.your-cart .container .box0 .cont .box1 h5, .your-cart .container .box0 .cont .box1 .h5 {
+.casual .popo h5, .casual .popo .h5 {
   font-family: Satoshi;
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
   text-align: left;
-}
-.your-cart .container .box0 .cont .box1 .active {
-  font-family: Satoshi;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18.9px;
-  text-align: left;
   color: #000000;
 }
-.your-cart .container .box0 .cont .box1 span {
+.casual .popo p {
   font-family: Satoshi;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 18.9px;
+  line-height: 21.6px;
   text-align: left;
   color: rgba(0, 0, 0, 0.6);
 }
-.your-cart .container .box0 .cont .box1 .btn {
-  padding: 12px 20px;
-  background-color: #F0F0F0;
-}
-.your-cart .container .box0 .cont .box1 .btn i {
-  width: 15.63px;
-  height: 15.63px;
-  color: #000000;
-}
-.your-cart .container .box0 .cont .box1 .btn span {
+.casual .popo button {
   font-family: Satoshi;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 18.9px;
-  margin-right: 10px;
-  margin-left: 10px;
-  color: #000000;
+  line-height: 21.6px;
+  text-align: left;
+  border: none;
+  background-color: white;
 }
-
 .casual .form {
   border: none;
   font-family: Satoshi;

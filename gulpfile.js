@@ -98,7 +98,7 @@ gulp.task('fontAwesome', () => {
 
 // Copy Fonts From SRC Folder
 gulp.task('fonts', () => {
-    return gulp.src([src_assets_folder + 'fonts/**/*.+(eot|svg|ttf|woff|woff2)'])
+    return gulp.src([src_assets_folder + 'fonts/**/*.+(eot|svg|ttf|woff|woff2|otf)'])
         .pipe(gulp.dest(dist_assets_folder + 'fonts'))
 });
 
