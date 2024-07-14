@@ -1,1902 +1,1631 @@
-
-
-
-
-.black{
-  background-color: #000000;
-  align-items: center;
-  padding-top: 9px;
-  padding-bottom: 10px;
-  position: relative;
-
-p{
-  text-align: center;
-
-  color:#FFFFFF ;
-
-  font-family: Satoshi;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18.9px;
-  margin-right: 5px;
-
-
-  
-
-
-  a{
-    text-decoration: underline;
-    color:#FFFFFF ;
-    font-family: Satoshi;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18.9px;
-    
-}
-
-}
-  i{
-    color: white;
-position: absolute;
-right: 8%;    
-
-  }
-
-}
-
-
-
-.class1{
-  @media (min-width: 767px) {
-    display: none;
-  } 
-
-
-}
-
-.class2{
-
-  @media (max-width: 767px) {
-    display: none;
-  } 
-}
-.navbar{
-
-
-  .container{
-
-
-  margin-top: 25px;
-  margin-bottom: 20px;
- .navbar-brand{
-  span{
-    font-family: Integral CF;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38.4px;
-
-    @media (max-width: 767px) {
-      font-size: 25.2px;
-      font-weight: 700;
-      line-height: 30.24px;
-      
-    } 
-    
-  }
-
-
-
-
-}
-
-  .navbar-nav{
-margin-left: 40px;
-margin-right: 40px;
-
-@media (min-width: 767px) {
-  margin-left: 10px;
-margin-right: 10px;
-
-} 
-
-  }
-
-  form {
+.black {
+    background-color: #000000;
+    align-items: center;
+    padding-top: 9px;
+    padding-bottom: 10px;
     position: relative;
-    margin-right: 40px;
- 
 
+    p {
+        text-align: center;
 
-
-
-
-input{
-     background-color: #F0F0F0;
-
-
-     @media (max-width: 767px) {
-            }  
-  
-}
-    i{
-    position: absolute;
-    top: 18px;
-    left: 20px;
-    color: #00000066;
-    @media (max-width: 767px) {
-            } 
-
-    }
-    
-    ::placeholder{
-      padding-left: 12px;
-      color: #00000066;
-    }
-  }
-  .dropdown{
-    img{
-
-      @media (max-width: 767px) {
-              } 
-
-    }
-
-  }
-  .dropdown{
-    i{
-      color:#000000 ;
-
-    }
-    
-    
-
-  }
-}
-}
-
- 
-
-  
-
-.slider-arrow{
-  position: absolute;
-  width: 50px;
-  height: 50px;
-
-bottom: -10px;
-
-  left: 45%;
-  i{
-    color: #000;
-    
-  }
-  
-
-}
-
-
-
-
-
-.landing{
-
-min-height: calc(100vh - 13px);
-img{
-  min-height: 100%;
-
-  
-
-}
- 
-
-  background-color:#F2F0F1 ;
-
-
-
-
-.container{
-
-  .slider-arrow1{
-    position: absolute;
-    width: 50px;
-    background-color: red;
-    height: 50px;
-  }
-  
-
-h2{
-
-  font-family: Integral CF;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 64px;
-  
-margin-top: 100px;
-
-@media (max-width: 767px) {
-  margin-top: 40px;
-  font-size:36px ;
- max-width:315px;
- font-family: Integral CF;
- font-size: 36px;
- font-weight: 700;
- line-height: 34px;
- text-align: left;
- 
-  
-} 
-
-}
-p{
-
-  font-family: Satoshi;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  margin-bottom: 32px;
-
-margin-top: 32px;
-@media (max-width: 767px) {
-font-family: Satoshi;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-text-align: left;
-
-max-width: 358px;
-
-
-}
-}
-.btn{
-background-color: #000000;
-padding: 15px 67.5px;
-color: #FFFFFF;
-font-family: Satoshi;
-font-size: 16px;
-font-weight: 500;
-line-height: 21.6px;
-text-align: center;
-
-@media (max-width: 767px) {
-width: 100%;
-} 
-&:hover{
-  transition: 0.6s;
-
-  color:#000000  ;
-  background-color: #FFFFFF;
-}
-
-
-
-}
-.span0{
-  display: flex;
-  flex-wrap: wrap;
-margin-top: 48px;
-@media (max-width: 767px) {
-  margin-top: 28px ;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-
-  } 
-
- .span1{
-  display: flex;
-  flex-direction: column;
-  :first-child{
-
-    font-family: Satoshi;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 54px;
- 
-
-  }
-  :last-child{
-    font-family: Satoshi;
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
-margin-right: 50px;
-
-color:#00000099 ;
-
-
-  }
-
- }
-  
-
-  
-
-}
-}
-
-
-
-.arrow{
-  text-align: center;
-  i{
-    padding: 10px;
-
-  }
-}
-
-
-}
-.compound{
-  padding-top:72px ;
-
-  @media (max-width: 767px) {
-    padding: 20px 20px;
-      
-    }
-  h2{
-  
-    font-family: Integral CF;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 57.6px;
-    text-align: center;
-    color:#000000 ;
-    margin-bottom: 55px;
-    @media (max-width:767) {
-      font-family: Integral CF;
-font-size: 32px;
-font-weight: 700;
-line-height: 38.4px;
-text-align: center;
-
-      
-    }
-
-  }
-  .container{
-
-      .box{
-        .content{
-          h5{
-     
+        color: #ffffff;
 
         font-family: Satoshi;
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 27px;
-        text-align: left;
-        
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.9px;
+        margin-right: 5px;
 
-        color: #000000;
-
-      margin-top: 16px;
-        margin-bottom: 8px;
-
-          }
-          i{
-            color:#FFC633 ;
-          }
-      
-      
-          span{
+        a {
+            text-decoration: underline;
+            color: #ffffff;
             font-family: Satoshi;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 32.4px;
-          }
-      .star{
-        span{
-          font-family: Satoshi;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 18.9px;
-      
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18.9px;
         }
-      }
-      .span0{
-
-        align-items: center;
-        margin-top: 8px;
-        span{
-    
-          margin-right: 12px;
-    
-          &:nth-child(1){
-           
-            color:#000000 ;
-
-
-            font-family: Satoshi;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 32.4px;
-            text-align: left;
-            
-
-
-                  }
-    
-          &:nth-child(2){
-          
-            color:#0000004D ;
-
-
-            font-family: Satoshi;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 32.4px;
-            text-align: left;
-            
-
-                  }
-          &:nth-child(3){
-            color: #FFC633;
-    
-    color: #FF3333;
-    background-color: #ecd6d6;
-    padding: 0px 8px;
-    border-radius: 20px;
-
-
-    font-family: Satoshi;
-font-size: 12px;
-font-weight: 500;
-line-height: 16.2px;
-text-align: left;
-
-          }
-        }
-    
-      }
-
-        }
-      
-      
-      }
-
-  }
-  .btn{
-margin:36px auto 0px auto;
-background-color: white;
-color: #000000;
-border: 1px solid rgba(0, 0, 0, 0.1);
-padding: 15px 80px;
-
-font-family: Satoshi;
-font-size: 16px;
-font-weight: 500;
-line-height: 21.6px;
-
-
-&:hover{
-  
-  color:#FFFFFF ;
-  background-color: #000000;
-  max-width: fit-content;
-  transition: 0.6s;
+    }
+    i {
+        color: white;
+        position: absolute;
+        right: 8%;
+        cursor: pointer;
+    }
 }
-  }
-  }
 
-  
+.class1 {
+    @media (min-width: 767px) {
+        display: none;
+    }
+}
 
-  .logs{
+.class2 {
+    // @media (max-width: 767px) {
+    //     display: none;
+    // }
+}
+.navbar {
+    padding: 24px 0;
+    .container {
+        .navbar-brand {
+            margin-left: 1rem;
+
+            span {
+                font-family: Integral CF;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 38.4px;
+
+                @media (max-width: 767px) {
+                    font-size: 25.2px;
+                    font-weight: 700;
+                    line-height: 30.24px;
+                }
+            }
+        }
+
+        .navbar-nav {
+            margin-left: 40px;
+            margin-right: 40px;
+
+            @media (min-width: 767px) {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+
+        .dropdown {
+            img {
+                @media (max-width: 767px) {
+                }
+            }
+        }
+        .dropdown {
+            i {
+                color: #000000;
+            }
+        }
+    }
+}
+.header-icons {
+    @media (max-width: 990px) {
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+}
+.navbar-toggler {
+    padding: 5px;
+    border: none;
+
+    &:hover,
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+.header-search {
+    position: relative;
+    margin-right: 40px;
+
+    input {
+        background-color: #f0f0f0;
+
+        &.form-control {
+            padding: 12px 16px 12px 40px;
+        }
+        @media (max-width: 767px) {
+        }
+    }
+    button {
+        background: transparent;
+        border: none;
+        padding: 0;
+        position: absolute;
+        top: 16px;
+        left: 20px;
+    }
+    i {
+        color: #00000066;
+        @media (max-width: 767px) {
+        }
+    }
+
+    ::placeholder {
+        color: #00000066;
+    }
+    &.search-collapse.show {
+        display: block !important;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        width: 250px;
+        z-index: 9;
+    }
+}
+.search-toggler {
+    padding: 8px 16px;
+}
+
+
+
+
+.landing {
+    min-height: calc(100vh - 13px);
+    img {
+        min-height: 100%;
+    }
+
+    background-color: #f2f0f1;
+
+    .container {
+
+        .main-slider{
+flex-wrap: wrap;
+        }
+        h2 {
+            font-family: Integral CF;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 64px;
+
+            margin-top: 100px;
+
+            @media (max-width: 767px) {
+                margin-top: 40px;
+                font-size: 36px;
+                max-width: 315px;
+                font-family: Integral CF;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 34px;
+                text-align: left;
+            }
+        }
+        p {
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            margin-bottom: 32px;
+
+            margin-top: 32px;
+            @media (max-width: 767px) {
+                font-family: Satoshi;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
+
+                max-width: 358px;
+            }
+        }
+        .btn {
+            background-color: #000000;
+            padding: 15px 67.5px;
+            color: #ffffff;
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 21.6px;
+            text-align: center;
+
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+            &:hover {
+                transition: 0.6s;
+
+                color: #000000;
+                background-color: #ffffff;
+            }
+        }
+        .span0 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 48px;
+            @media (max-width: 767px) {
+                margin-top: 28px;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .span1 {
+                display: flex;
+                flex-direction: column;
+                :first-child {
+                    font-family: Satoshi;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 54px;
+                }
+                :last-child {
+                    font-family: Satoshi;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    margin-right: 50px;
+
+                    color: #00000099;
+                }
+            }
+        }
+    }
+    .slider-arrow{
+position: absolute;
+left: 50%;
+bottom: 20px;
+i{
+    color: #000;
+
+
+}
+    }
+ 
+}
+
+.slider-one-compound{
+    margin-bottom: -60px;
+    .slider-arrow{
+        bottom: 20px;
+    .one{
+        position: absolute;
+        color:var(--main-color);
+        bottom: 300px;
+        left: 0px;
+        }
+        .tow{
+
+            position: absolute;
+            color:var(--main-color);
+        bottom: 300px;
+        right: 0px;
+        }
+            }
+
+}
+
+.slider-tow-compound{
+    margin-bottom: -40px;
+
+    .slider-arrow{
+        bottom: 20px;
+    .one{
+        position: absolute;
+        color:var(--main-color);
+        bottom: 300px;
+        left: 0px;
+        }
+        .tow{
+
+            position: absolute;
+            color:var(--main-color);
+        bottom: 300px;
+        right: 0px;
+        }
+            }
+
+}
+
+.slider-three-compound{
+    margin-bottom: -40px;
+    .slider-arrow{
+        bottom: 20px;
+    .one{
+        position: absolute;
+        color:var(--main-color);
+        bottom: 300px;
+        left: 0px;
+        }
+        .tow{
+
+            position: absolute;
+            color:var(--main-color);
+        bottom: 300px;
+        right: 0px;
+        }
+            }
+
+}
+
+ .slider-qwer-compound{
+    .slider-arrow{
+        bottom: 20px;
+    .one{
+        position: absolute;
+        color:var(--main-color);
+        bottom: 350px;
+        left: 50px;
+
+        @media (max-width:767px) {
+            left: 20px;
+
+        }
+        }
+        .tow{
+
+            position: absolute;
+            color:var(--main-color);
+        bottom: 350px;
+        right: 50px;
+        @media (max-width:767px) {
+            right: 20px;
+
+        }
+        }
+            }
+
+}
+ .slider-compound{
+    .slider-arrow{
+        bottom: 20px;
+    .one{
+        position: absolute;
+        color:var(--main-color);
+        bottom: 350px;
+        left: 50px;
+        @media (max-width:767px) {
+            left: 20px;
+
+        }
+        }
+        .tow{
+
+            position: absolute;
+            color:var(--main-color);
+            bottom: 350px;
+            right: 50px;
+
+            @media (max-width:767px) {
+                right: 20px;
+    
+            }
+        }
+            }
+ }
+
+.slider-compound  ,  .slider-qwer-compound , .slider-one-compound , .slider-tow-compound ,.slider-three-compound  {
+
+    @media (max-width: 767px) {
+        padding: 20px 20px;
+    }
+    h2 {
+        font-family: Integral CF;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.6px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 55px;
+        @media (max-width: 767) {
+            font-family: Integral CF;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 38.4px;
+            text-align: center;
+        }
+    }
+    .container {
+        .box {
+            
+            margin: 20px;
+            .content {
+                h5 {
+                    font-family: Satoshi;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 27px;
+                    text-align: left;
+                    color: #000000;
+                    margin-top: 16px;
+                    margin-bottom: 8px;
+                }
+                i {
+                    color: #ffc633;
+                }
+
+                span {
+                    font-family: Satoshi;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32.4px;
+                }
+                .star {
+                    span {
+                        font-family: Satoshi;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18.9px;
+                    }
+                }
+                .span0 {
+                    align-items: center;
+                    margin-top: 8px;
+                    span {
+                        margin-right: 12px;
+                        &:nth-child(1) {
+                            color: #000000;
+                            font-family: Satoshi;
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 32.4px;
+                            text-align: left;
+                        }
+
+                        &:nth-child(2) {
+                            color: #0000004d;
+
+                            font-family: Satoshi;
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 32.4px;
+                            text-align: left;
+                        }
+                        &:nth-child(3) {
+                            color: #ffc633;
+
+                            color: #ff3333;
+                            background-color: #ecd6d6;
+                            padding: 0px 8px;
+                            border-radius: 20px;
+
+                            font-family: Satoshi;
+                            font-size: 12px;
+                            font-weight: 500;
+                            line-height: 16.2px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn {
+        background-color: #000000;
+        padding: 15px 67.5px;
+        color: #ffffff;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.6px;
+margin: auto;
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+        &:hover {
+            transition: 0.6s;
+
+            color: #000000;
+            background-color: #ffffff;
+        }
+    }
+
+   
+
+}
+.logs {
     display: flex;
     justify-content: space-around;
-background-color: #000000;
-flex-wrap: wrap;
-img{
-
-  padding-bottom: 42px;
-  padding-top: 42px;
-}
- 
-  }
-  .container{
-
-    
-  .browse{
-    margin-top: 80px;
-   
-    @media (max-width: 767px) {
-      padding: 20px 20px;
-        
-      }
-    padding: 70px 64px;
-background-color:#F0F0F0 ;
-border-radius: 20px;
-
-h2{
-margin-bottom: 64px;
-font-family: Integral CF;
-font-size: 48px;
-font-weight: 700;
-line-height: 57.6px;
-text-align: center;
-color: #000000;
-}
-
-
-
-
-  img{
-    height: 289px;
-    margin-bottom: 20px;
-
-    @media (max-width: 767px) {
-     
-   margin-bottom: 20px;
-      
-    }
-      }
-}
-
-
-  }
-  .our-happy{
-
- 
-
-   
-
-
-
-    h2{
-      font-family: Integral CF;
-font-size: 48px;
-font-weight: 700;
-line-height: 57.6px;
-text-align: left;
-margin-top: 80px;
-margin-bottom: 40px;
-gap: 10px;
-
-@media (max-width: 767px) {
-
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 36px;
-  text-align: center;
-  
-
-
-}
-    }
-    .box{
-      max-width: 360px;
-      height: 240px;
-      padding: 28px 32px;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      margin: 10px;
-    p{
-
-      color: rgba(0, 0, 0, 0.60);
-font-family: Satoshi;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px; 
-    }
-span{
-  color: #000;
-
-  font-family: Satoshi;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 22px; 
-}
-.star{
-  
-
-i{
-
-  color: #FFC633;
-}
-
-}
-}
- 
-      
-    }
-   
-    
-
-
-
-         
-
-
-
-      footer{
-.container{
-
-  .stay{
-    margin-top: 80px;
-  
-    padding: 42px 64px;
-    background-color:#000000 ;
-    border-radius: 16px;
-    display: flex;
+    background-color: #000000;
     flex-wrap: wrap;
-justify-content: space-between;
-
-@media (max-width: 767px) {
-  margin-top: 32px;
-
-  padding: 32px 24px 24px 24px ;
-}
-
-form{
-  position: relative;
-width: 350px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-gap: 4px;
-
-@media (max-width: 767px) {
-  gap: 14px;
-
-  width: 100%;
-  }
-
-::placeholder{
-  padding-left: 20px;
-  font-family: Satoshi;
-font-size: 16px;
-font-weight: 400;
-line-height: 21.6px;
-
- color:#00000066 ; 
-}
-i{
-top:10px;
-left:12px;
-z-index: 999;
-position: absolute;
-color:#00000066 ; 
-
-font-size: 16px;
-font-weight: 400;
-line-height: 21.6px;
-
-}
-  input[type="email"] {
-    padding: 10px;
-    width: 100%;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 40px;
-}
-button {
-  width: 100%;
-
-  padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 40px;
-    @media (max-width: 767px) {
-      margin-bottom:  25px;
+    img {
+        padding-bottom: 42px;
+        padding-top: 42px;
     }
 }
+.container {
+    .browse {
+        margin-top: 80px;
+
+        @media (max-width: 767px) {
+            padding: 20px 20px;
+        }
+        padding: 70px 64px;
+        background-color: #f0f0f0;
+        border-radius: 20px;
+
+        h2 {
+            margin-bottom: 64px;
+            font-family: Integral CF;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 57.6px;
+            text-align: center;
+            color: #000000;
+        }
+
+        img {
+            height: 289px;
+            margin-bottom: 20px;
+
+            @media (max-width: 767px) {
+                margin-bottom: 20px;
+            }
+        }
+    }
 }
-h2{
+.slider-our-happy {
 
-  font-family: Integral CF;
-font-size: 40px;
-font-weight: 700;
-line-height: 45px;
-max-width: 551px;
-color:#FFFFFF ;
-@media (max-width: 767px) {
+        h2 {
+            font-family: Integral CF;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 57.6px;
+            text-align: left;
+            margin-top: 80px;
+            margin-bottom: 40px;
+            gap: 10px;
+    
+            @media (max-width: 767px) {
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 36px;
+                text-align: center;
+            }
+        }
+        .box {
+            max-width: 360px;
+            height: 240px;
+            padding: 28px 32px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            overflow: hidden;
+            p {
+                color: rgba(0, 0, 0, 0.6);
+                font-family: Satoshi;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+            }
+            span {
+                color: #000;
+                font-family: Satoshi;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22px;
+            }
+            .star {
+                i {
+                    color: #ffc633;
+                }
+            }
+        }
+    
 
-margin-bottom: 22px;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 35px;
-  
+    h2 {
+        font-family: Integral CF;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.6px;
+        text-align: left;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        gap: 10px;
+
+        @media (max-width: 767px) {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 36px;
+            text-align: center;
+        }
+    }
 
 }
 
-}
+footer {
+    .container {
+        .stay {
+            margin-top: 80px;
 
-  }
+            padding: 42px 64px;
+            background-color: #000000;
+            border-radius: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
 
-.row{
-padding-top: 50px;
-padding-bottom: 50px;
-gap: 20px;
-.logo{
+            @media (max-width: 767px) {
+                margin-top: 32px;
 
-  width: 167px;
-  height: 23px;
-  margin-bottom: 25px;
+                padding: 32px 24px 24px 24px;
+            }
 
-}
-p{
-
-  font-family: Satoshi;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 22px;
-  max-width: 248px;
-margin-bottom: 35px;
-
-
-}
-
-.icon{
-
-  a{
-
+            form {
+                position: relative;
+                width: 350px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-               width: 36px;
-              height: 36px;
-          border-radius: 50%;
-           background-color: white;
-                margin-right: 12px;
-    display: flex;
-               justify-content: center;
-                 align-items: center;
+                flex-direction: column;
+                gap: 4px;
 
-           box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+                @media (max-width: 767px) {
+                    gap: 14px;
 
+                    width: 100%;
+                }
 
-  &:hover {
-    background-color: #000000;
+                ::placeholder {
+                    padding-left: 20px;
+                    font-family: Satoshi;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 21.6px;
 
-    transition: all 0.5s;
+                    color: #00000066;
+                }
+                i {
+                    top: 10px;
+                    left: 12px;
+                    z-index: 999;
+                    position: absolute;
+                    color: #00000066;
 
-    i {
-      color:white;
-      }
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 21.6px;
+                }
+                input[type="email"] {
+                    padding: 10px;
+                    width: 100%;
+                    font-size: 16px;
+                    border: 1px solid #ccc;
+                    border-radius: 40px;
+                }
+                button {
+                    width: 100%;
 
-                 }
-             i {
-               color:#000;
-               }
-  }
+                    padding: 10px;
+                    font-size: 16px;
+                    border: 1px solid #ccc;
+                    border-radius: 40px;
+                    @media (max-width: 767px) {
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+            h2 {
+                font-family: Integral CF;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 45px;
+                max-width: 551px;
+                color: #ffffff;
+                @media (max-width: 767px) {
+                    margin-bottom: 22px;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 35px;
+                }
+            }
+        }
 
-}
-.list{
-  span{
-    font-family: Satoshi;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: 3px;
-color: #000000;    
-margin-bottom: 25px;
-display: block;
-  }
-  li{
-    margin-bottom: 20px;    
+        .row {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            gap: 20px;
+            .logo {
+                width: 167px;
+                height: 23px;
+                margin-bottom: 25px;
+            }
+            p {
+                font-family: Satoshi;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                max-width: 248px;
+                margin-bottom: 35px;
+            }
 
-    a{
-      font-family: Satoshi;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 19px;
-color: #00000099;  
+            .icon {
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    background-color: white;
+                    margin-right: 12px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
 
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 
+                    &:hover {
+                        background-color: #000000;
+
+                        transition: all 0.5s;
+
+                        i {
+                            color: white;
+                        }
+                    }
+                    i {
+                        color: #000;
+                    }
+                }
+            }
+            .list {
+                span {
+                    font-family: Satoshi;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    letter-spacing: 3px;
+                    color: #000000;
+                    margin-bottom: 25px;
+                    display: block;
+                }
+                li {
+                    margin-bottom: 20px;
+
+                    a {
+                        font-family: Satoshi;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19px;
+                        color: #00000099;
+                    }
+                }
+            }
+        }
     }
-  }
-}
-
-}
-
-
-      }
-      .line-button {
-          border-bottom: 1px solid #8a8a8a;
-          width: 100%;
-
-
-}
-      .copyright {
-        margin-top:  20px; 
-        margin-bottom: 81px ;
+    .line-button {
+        border-bottom: 1px solid #8a8a8a;
+        width: 100%;
+    }
+    .copyright {
+        margin-top: 20px;
+        margin-bottom: 81px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        
-@media (max-width: 767px) {
-  justify-content: center;
-  }
-          p {
+
+        @media (max-width: 767px) {
+            justify-content: center;
+        }
+        p {
             font-family: Satoshi;
             font-size: 14px;
             font-weight: 400;
             line-height: 18.9px;
 
             @media (max-width: 767px) {
-              margin-bottom: 16px;
-  }
-          }
-          .pay{
+                margin-bottom: 16px;
+            }
+        }
+        .pay {
+            i {
+                margin-right: 12px;
+                width: 28.56px;
+                height: 11.21px;
 
-i{
-  margin-right: 12px;
-  width: 28.56px;
-height: 11.21px;
-
-@media (max-width: 767px) {
-  margin-right: 6px;
-}
-}
-
-
-
-          }
-      }
+                @media (max-width: 767px) {
+                    margin-right: 6px;
+                }
+            }
+        }
     }
-
-  .t-shirt{
-
-
-    
-.container{
-    .form{
-      margin-top: 24px;
-      margin-bottom: 36px;
-      border: none;
-  
-      font-family: Satoshi;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 21.6px;
-  text-align: left;
-  color:#00000099 ;
-  span{
-    font-family: Satoshi;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 21.6px;
-  text-align: left;
-  color:#000000 ;
-  
-  }
-    }
-    .pic-Graphic {
-      gap: 40px;
-
-
-      @media ( max-width: 767px){
-
-        flex-wrap: wrap;
-          }
-
-   
-.pic{
-  
- 
-  .big-small{
-    display: flex;
-gap: 14px;
-
-@media ( max-width: 767px){
-
-  flex-wrap: wrap;
-    }
-
-  .big{
-   
-    img{
-
-      border-radius: 16px;
-
-
-      @media ( max-width: 767px){
-          }
-
-    }
-    
-  }
-
-.small{
-flex-direction: column;
-display: flex;
-gap: 10px;
-justify-content: center;
-@media ( max-width: 767px){
-  align-items: center;
-  flex-direction: row;
 }
+.t-shirt {
+    .container {
+        .form {
+            margin-top: 24px;
+            margin-bottom: 36px;
+            border: none;
 
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.6px;
+            text-align: left;
+            color: #00000099;
+            span {
+                font-family: Satoshi;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: left;
+                color: #000000;
+            }
+        }
+        .pic-Graphic {
+            gap: 40px;
 
-img{
-
-
-
-}
-
-
-}
-}
-
-}
-
-.Graphic{
-  h2{
-    font-family: Integral CF;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    text-align: left;
-    @media ( max-width: 767px){
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 28px;
-      text-align: left;
-      
+            @media (max-width: 767px) {
+                flex-wrap: wrap;
             }
 
-  }
-  .star{
-color: #FFC633;
-span{
-  color: #000000;
-}
-  }
-  .span0{
+            .pic {
+                .big-small {
+                    display: flex;
+                    gap: 14px;
 
-    align-items: center;
-    span{
+                    @media (max-width: 767px) {
+                        flex-wrap: wrap;
+                    }
 
-      margin-right: 12px;
+                    .big {
+                        img {
+                            border-radius: 16px;
 
-      &:nth-child(1){
-        font-family: Satoshi;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 43.2px;
-        text-align: left;
-        color:#000000 ;
-              }
+                            @media (max-width: 767px) {
+                            }
+                        }
+                    }
 
-      &:nth-child(2){
-        font-family: Satoshi;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 43.2px;
-        text-align: left;
-        color:#0000004D ;
-              }
-      &:nth-child(3){
-        color: #FFC633;
-        font-family: Satoshi;
-font-size: 16px;
-font-weight: 500;
-line-height: 21.6px;
-text-align: left;
-color: #FF3333;
-background-color: #ecd6d6;
-padding: 0px 8px;
-border-radius: 20px;
-      }
-    }
+                    .small {
+                        flex-direction: column;
+                        display: flex;
+                        gap: 10px;
+                        justify-content: center;
+                        @media (max-width: 767px) {
+                            align-items: center;
+                            flex-direction: row;
+                        }
 
-  }
-  p{
-    font-family: Satoshi;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: #00000099;
-    max-width: 590px;
-border-bottom: 1px solid #0000001A;
-    padding-bottom: 24px;
-    padding-top: 12px;
-  }
-  .color{
-    font-family: Satoshi;
-font-size: 16px;
-font-weight: 400;
-line-height: 21.6px;
-text-align: left;
-color:  #00000099;
-margin-top: 24px;
-display: block;
-
-
-  }
-  .circle{
-    border-bottom: 1px solid #0000001A;
-padding-bottom: 14px;
-.form-group input {
-  display: none;
-}
-
-.form-group label {
-  position: relative;
-  cursor: pointer;
-}
-
-.form-group label:before {
-  content:'';
-  border: 2px solid ;
-  padding: 15px;
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  margin-right: 5px;
-  border-radius: 50%;
- 
-}
-.one label:before {
-background-color: #4F4631
-}
-
-.tow label:before {
-  background-color: #314F4A
-  }
-  
-  .three label:before {
-    background-color: #31344F
-    }
-    
-.form-group input:checked + label:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 6px;
-  height: 14px;
-  border: solid #FFFFFF;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-  
-}
-
-
-
-
-
-  }
-  .cart{
-    border-top: 1px solid #0000001A;
-margin-top: 24px;
-    padding-top: 24px;
-  }
-  .size{
-    flex-wrap: wrap;
-gap: 12px;
-@media ( max-width: 767px){
-justify-content: center;  
-        }
-
-
-
-
-
-    .btn{
-font-family: Satoshi;
-color:#00000099;
-background-color: #F0F0F0;
-
-padding: 10px 15px;
-
-
-&:hover{
-  transition: 0.6s;
-color: #F0F0F0;;
-  background-color: #000000;
-}
-
-    }
-
-  }
-  .cart{
-    :last-child{
-  flex: 1;
-
-    } 
-    :first-child{
-
-      font-family: Satoshi;
-      font-weight: 500;
-      line-height: 21.6px;
-      text-align: left;
-     
-    }
-.btn{
-  background-color: #F0F0F0;
-  color:#00000099;
- margin-right: 20px;
-  font-family: Satoshi;
-font-size: 16px;
-line-height: 21.6px;
-
-
-@media ( max-width: 767px){
-  font-size: 11px;
-
-  
-        }
-
-i{
-
-  width: 18.75px;
-height: 2.25px;
-margin-right: 10px;
-margin-left: 10px;
-
-}
-  &:hover{
-    transition: 0.6s;
-  color: #F0F0F0;;
-    background-color: #000000;
-  }
-}
-
-  }
-}
-
-  }
-
-
-
-
-}
-
-}
-.center{
-  margin-top: 50px;
-  margin-bottom: 24px;
-  .container{
-    display: flex;
-    justify-content: space-around;
-    :nth-child(2){
-      border-bottom: 2px solid #000000;
-      text-align: center;
-
-width: 33.33%;
-    }
-    
-    :first-child,:last-child{
-      padding-bottom: 24px;
-      font-family: Satoshi;
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 22px;
-      border-bottom: 1px solid #0000001A;
-      text-align: center;
-  color: #00000099;
-  width: 33.33%;
-
-    }
-
-  
-
-  }
- 
-    }
-    .all-reviews{
-
-
-      .reviews{
-
-
-        .span0{
-          :first-child{
-            font-family: Satoshi;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 32.4px;
-            text-align: left;
-
-@media ( max-width: 767px){
-
-
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 27px;
-  
-
-
-        }
-
+                        img {
+                        }
+                    }
                 }
+            }
 
+            .Graphic {
+                h2 {
+                    font-family: Integral CF;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    text-align: left;
+                    @media (max-width: 767px) {
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        text-align: left;
+                    }
+                }
+                .star {
+                    color: #ffc633;
+                    span {
+                        color: #000000;
+                    }
+                }
+                .span0 {
+                    align-items: center;
+                    span {
+                        margin-right: 12px;
 
-                :last-child{
-                  font-family: Satoshi;
-                  font-size: 16px;
-                  font-weight: 400;
-                  line-height: 22px;
-                  text-align: left;
-                  color:#00000099 ;
-                  @media ( max-width: 767px){
+                        &:nth-child(1) {
+                            font-family: Satoshi;
+                            font-size: 32px;
+                            font-weight: 700;
+                            line-height: 43.2px;
+                            text-align: left;
+                            color: #000000;
+                        }
+
+                        &:nth-child(2) {
+                            font-family: Satoshi;
+                            font-size: 32px;
+                            font-weight: 700;
+                            line-height: 43.2px;
+                            text-align: left;
+                            color: #0000004d;
+                        }
+                        &:nth-child(3) {
+                            color: #ffc633;
+                            font-family: Satoshi;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 21.6px;
+                            text-align: left;
+                            color: #ff3333;
+                            background-color: #ecd6d6;
+                            padding: 0px 8px;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+                p {
+                    font-family: Satoshi;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    text-align: left;
+                    color: #00000099;
+                    max-width: 590px;
+                    border-bottom: 1px solid #0000001a;
+                    padding-bottom: 24px;
+                    padding-top: 12px;
+                }
+                .color {
+                    font-family: Satoshi;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 21.6px;
+                    text-align: left;
+                    color: #00000099;
+                    margin-top: 24px;
+                    display: block;
+                }
+                .circle {
+                    border-bottom: 1px solid #0000001a;
+                    padding-bottom: 14px;
+                    .form-group input {
+                        display: none;
+                    }
+
+                    .form-group label {
+                        position: relative;
+                        cursor: pointer;
+                    }
+
+                    .form-group label:before {
+                        content: "";
+                        border: 2px solid;
+                        padding: 15px;
+                        display: inline-block;
+                        position: relative;
+                        vertical-align: middle;
+                        margin-right: 5px;
+                        border-radius: 50%;
+                    }
+                    .one label:before {
+                        background-color: #4f4631;
+                    }
+
+                    .tow label:before {
+                        background-color: #314f4a;
+                    }
+
+                    .three label:before {
+                        background-color: #31344f;
+                    }
+
+                    .form-group input:checked + label:after {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        top: 15px;
+                        left: 15px;
+                        width: 6px;
+                        height: 14px;
+                        border: solid #ffffff;
+                        border-width: 0 2px 2px 0;
+                        transform: rotate(45deg);
+                    }
+                }
+                .cart {
+                    border-top: 1px solid #0000001a;
+                    margin-top: 24px;
+                    padding-top: 24px;
+                }
+                .size {
+                    flex-wrap: wrap;
+                    gap: 12px;
+                    @media (max-width: 767px) {
+                        justify-content: center;
+                    }
+
+                    .btn {
+                        font-family: Satoshi;
+                        color: #00000099;
+                        background-color: #f0f0f0;
+
+                        padding: 10px 15px;
+
+                        &:hover {
+                            transition: 0.6s;
+                            color: #f0f0f0;
+                            background-color: #000000;
+                        }
+                    }
+                }
+                .cart {
+                    :last-child {
+                        flex: 1;
+                    }
+                    :first-child {
+                        font-family: Satoshi;
+                        font-weight: 500;
+                        line-height: 21.6px;
+                        text-align: left;
+                    }
+                    .btn {
+                        background-color: #f0f0f0;
+                        color: #00000099;
+                        margin-right: 20px;
+                        font-family: Satoshi;
+                        font-size: 16px;
+                        line-height: 21.6px;
+
+                        @media (max-width: 767px) {
+                            font-size: 11px;
+                        }
+
+                        i {
+                            width: 18.75px;
+                            height: 2.25px;
+                            margin-right: 10px;
+                            margin-left: 10px;
+                        }
+                        &:hover {
+                            transition: 0.6s;
+                            color: #f0f0f0;
+                            background-color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.center {
+    margin-top: 50px;
+    margin-bottom: 24px;
+    .container {
+        display: flex;
+        justify-content: space-around;
+        :nth-child(2) {
+            border-bottom: 2px solid #000000;
+            text-align: center;
+
+            width: 33.33%;
+        }
+
+        :first-child,
+        :last-child {
+            padding-bottom: 24px;
+            font-family: Satoshi;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 22px;
+            border-bottom: 1px solid #0000001a;
+            text-align: center;
+            color: #00000099;
+            width: 33.33%;
+        }
+    }
+}
+.all-reviews {
+    .reviews {
+        .span0 {
+            :first-child {
+                font-family: Satoshi;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32.4px;
+                text-align: left;
+
+                @media (max-width: 767px) {
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 27px;
+                }
+            }
+
+            :last-child {
+                font-family: Satoshi;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: left;
+                color: #00000099;
+                @media (max-width: 767px) {
                     font-size: 14px;
                     font-weight: 400;
                     line-height: 22px;
-                    
-                          }
-    
-    
-    
                 }
-                    
-
-
+            }
         }
-      
-      .box{
 
-        padding: 28px 32px;
-        border-radius: 16px;
-border: 1px solid rgba(0, 0, 0, 0.1);
-gap: 22px;        max-width:610px;
-.Posted{
-  padding-top: 24px;
+        .box {
+            padding: 28px 32px;
+            border-radius: 16px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            gap: 22px;
+            max-width: 610px;
+            .Posted {
+                padding-top: 24px;
+            }
+            &:last-child {
+                color: #ffc633;
+            }
+            p {
+                font-family: Satoshi;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: left;
+                max-width: 522px;
+            }
+
+            span {
+                color: #000;
+                font-family: Satoshi;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22px;
+                margin-bottom: 12px;
+                display: flex;
+            }
+            .star {
+                margin-bottom: 15px;
+                i {
+                    color: #ffc633;
+                }
+
+                .dot {
+                    i {
+                        color: #000;
+                    }
+                }
+            }
+        }
+        .btn {
+            margin: auto;
+            background-color: #000000;
+            color: white;
+
+            border-radius: 22px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            &:hover {
+                transition: 0.6s;
+                background-color: white;
+                color: #000000;
+            }
+        }
+        .selected {
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            img {
+                background-color: #f0f0f0;
+                border-radius: 50%;
+                width: 20px;
+                height: 20px;
+            }
+
+            .form {
+                border: none;
+                border-radius: 16px;
+                background-color: #f0f0f0;
+                @media (max-width: 767px) {
+                    display: none;
+                }
+            }
+        }
+    }
 }
-&:last-child{
-  color: #FFC633;
+.your-cart {
+    .container {
+        .form {
+            border: none;
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.6px;
+            text-align: left;
+            color: #00000099;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-family: Integral CF;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            text-align: left;
+            color: #000000;
+            margin-bottom: 24px;
+        }
+
+        .content {
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+
+            .cont {
+                flex: 1;
+
+                border: 1px solid #0000001a;
+                padding: 20px 24px 30px 24px;
+
+                @media (max-width: 767px) {
+                    margin-bottom: 40px;
+                }
+
+                .box1 {
+                    padding-top: 24px;
+                    padding-bottom: 24px;
+
+                    border-bottom: 1px solid #0000001a;
+
+                    img {
+                        margin-right: 24px;
+
+                        max-height: 99px;
+                    }
+
+                    .qwer {
+                        h5 {
+                            font-family: Satoshi;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 27px;
+                            text-align: left;
+                            color: #000000;
+                            @media (max-width: 767px) {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .Gradient2 {
+                            .btn {
+                                background-color: #f0f0f0;
+                                font-family: Satoshi;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+                                text-align: left;
+                                color: #00000099;
+
+                                padding: 12px 22px;
+                                margin-right: 5px;
+                                span {
+                                    margin-left: 10px;
+                                }
+                                i {
+                                    color: #00000099;
+                                }
+                                &:hover {
+                                    color: #ffffff;
+                                    background-color: #000000;
+                                    max-width: fit-content;
+
+                                    i {
+                                        color: #ffffff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .box {
+                border: 1px solid #0000001a;
+                padding: 20px 24px 24px;
+                max-height: 458px;
+
+                .Order {
+                    .active {
+                        border-bottom: 1px solid #0000001a;
+                        margin-bottom: 20px;
+                    }
+
+                    .vector {
+                        .total {
+                            display: block;
+                            font-family: Satoshi;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 27px;
+                            text-align: left;
+                            color: #000000;
+                        }
+                        .active2 {
+                            font-family: Satoshi;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 27px;
+                            text-align: right;
+                            color: #ff3333;
+                        }
+
+                        :first-child {
+                            font-family: Satoshi;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 27px;
+                            text-align: left;
+                            color: #00000099;
+                            padding-bottom: 20px;
+                        }
+                        :last-child {
+                            font-family: Satoshi;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 27px;
+                            text-align: right;
+
+                            @media (max-width: 767px) {
+                                font-weight: 400px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .code {
+            img {
+                margin-right: -40px;
+                z-index: 333;
+            }
+            input {
+                flex: 1;
+                padding: 12px auto 12px 32px;
+                background-color: #f0f0f0;
+                border-radius: 25px;
+                margin-right: 13px;
+                border: none;
+            }
+            ::placeholder {
+                padding-left: 50px;
+            }
+
+            .btn {
+                padding: 13px 32px;
+                font-family: Satoshi;
+                font-size: 16px;
+                font-weight: 500;
+
+                color: #ffffff;
+                background-color: #000000;
+                @media (max-width: 767px) {
+                    font-weight: 400px;
+                    font-size: 14px;
+                }
+                &:hover {
+                    color: #000000;
+
+                    background-color: #f0f0f0;
+
+                    transition: 0.6px;
+                }
+            }
+        }
+        i {
+            color: #ffffff;
+            margin-left: 10px;
+        }
+
+        a {
+            margin-top: 43px;
+            padding: 13px;
+            border-radius: 25px;
+            display: block;
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 21.6px;
+            text-align: center;
+            color: #ffffff;
+            background-color: #000000;
+            &:hover {
+                color: #000000;
+
+                background-color: #f0f0f0;
+
+                transition: 0.6px;
+
+                i {
+                    color: #000000;
+                }
+            }
+        }
+    }
 }
-      p{
-  
+
+//  end car
+
+.casual {
+    .compound {
+        margin-top: -50px;
+        @media (max-width: 767px) {
+            margin-top: 10px;
+            .box {
+                margin-top: 20px;
+            }
+        }
+        .rorl {
+            padding-top: 20px;
+            border-top: 1px solid #0000001a;
+            margin-top: 32px;
+        }
+    }
+
+    .popo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hide {
+            display: none;
+        }
+        @media (max-width: 767px) {
+            h5 {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32.4px;
+            }
+            .visible {
+                display: none;
+            }
+
+            .hide {
+                display: block;
+            }
+        }
+
+        .popover {
+            position: relative;
+            display: none;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .popover.show {
+            display: block;
+        }
+
+        h5 {
+            font-family: Satoshi;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 43.2px;
+            text-align: left;
+        }
+        p {
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.6px;
+            text-align: left;
+            color: #00000099;
+        }
+        button {
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 21.6px;
+            text-align: left;
+            border: none;
+            background-color: white;
+        }
+    }
+    .form {
+        border: none;
+
         font-family: Satoshi;
         font-size: 16px;
         font-weight: 400;
-        line-height: 22px;
+        line-height: 21.6px;
         text-align: left;
-  max-width: 522px;
-
-
-      }
-    
-  span{
-    color: #000;
-    font-family: Satoshi;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 22px; 
-    margin-bottom: 12px;
-    display: flex;
-  }
-  .star{
-    margin-bottom: 15px;
-    i{
-    
-      color: #FFC633;
-
-
-
+        color: #00000099;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
 
-    .dot{
-      i{
-    
-        color: #000;
-    
-      }
-    }
-
-  }
-    }
-   .btn{
-    margin: auto;
-    background-color: #000000;
-    color: white;
-
-
-    border-radius: 22px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    &:hover{
-      transition: 0.6s;
-      background-color: white;
-      color: #000000;
-     
-    }
-    
-   }
-   .selected{
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    img{
-      background-color:#F0F0F0 ;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
- 
-    }
-    
-  
-      
-      .form{
-
-        border: none;
-        border-radius: 16px;
-        background-color:#F0F0F0 ;
-        @media (max-width :767px) {
-          display: none;
-          
-        }
-            }
-    
-
-
-   }
-
-   }
-  }
-  .your-cart{
-   
-    .container{
-      .form{
-        border: none;
+    span {
         font-family: Satoshi;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 21.6px;
-      text-align: left;
-      color:#00000099 ;
-      margin-top: 24px;
-      margin-bottom: 24px;
-      
-      }
-   
-
-      h2{
-
-        font-family: Integral CF;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 48px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
         text-align: left;
-color: #000000;  
-margin-bottom: 24px;      
+        color: #000000;
+    }
+    .filters {
+        .accordion {
+            border: none;
 
-      }
-
-      .content{
-        justify-content: center;
-gap: 20px;
-flex-wrap: wrap;
-
-.cont{
-
-
-  
-flex: 1;
-
-  border: 1px solid #0000001A;
-  padding:20px 24px 30px 24px;
-
-  @media ( max-width: 767px){
-margin-bottom: 40px;   
-      }
-
-      
-    
-      .box1{
-        padding-top: 24px;
-        padding-bottom:24px ;
-        
-        border-bottom: 1px solid #0000001A;
-        
-        
-        img{
-        
-          margin-right: 24px;
-        
-          max-height: 99px;
-        }
-        
-        
-        
-        
-        .qwer{
-        
-          h5{
-            font-family: Satoshi;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 27px;
-            text-align: left;
-          color:#000000 ; 
-          @media ( max-width: 767px){
-            font-size: 16px;
-          }
-        
-        
-          
-          }
-        
-          .Gradient2{
-            .btn{
-              background-color: #F0F0F0;
-              font-family: Satoshi;
-              font-size: 14px;
-              font-weight: 400;
-              line-height: 18.9px;
-              text-align: left;
-              color: #00000099;
-        
-              padding: 12px 22px;
-              margin-right: 5px;
-              span{
-                margin-left: 10px;
-              }
-              i{
-        
-                color: #00000099;
-        
-              }
-              &:hover{
-            
-                color:#FFFFFF ;
-                background-color: #000000;
-                max-width: fit-content;
-        
-                i{
-        
-                  color: #FFFFFF;
-          
-                }
-        
-              }
-              
+            .accordion-button {
+                background-color: white;
             }
-          }
-        }
-        
-        
-        }
-     
-  
-
-
-}
-
-
-    
-.box{
-  border: 1px solid #0000001A;
-  padding:20px 24px  24px;
-  max-height:  458px;
- 
-
-
- 
-.Order{
-
-
- 
-  .active{
-    border-bottom: 1px solid #0000001A;
-margin-bottom: 20px;
-  }
-
-  .vector{
-
-    .total{
-      display: block;
-      font-family: Satoshi;
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 27px;
-      text-align: left;
-color: #000000;      
-    }
-    .active2{
-
-      font-family: Satoshi;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 27px;
-  text-align: right;
-  color:#FF3333 ;
-  
-    }
-
-  :first-child{
-
-    font-family: Satoshi;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: left;
-    color: #00000099;
-    padding-bottom: 20px;
-
-
-  }
-:last-child{
-
-
-  font-family: Satoshi;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 27px;
-  text-align: right;
-
-  @media ( max-width: 767px){
-    font-weight: 400px;
-    font-size: 14px;
-  }
-     }
-
-
-
-  
-
-}
-  }
-
-
-
-}
-
-  }
-  .code{
-img{
-
-  margin-right: -40px;
-  z-index: 333;
-}
-  input{
-      flex: 1;
-padding: 12px auto 12px 32px;
-      background-color: #F0F0F0;
-      border-radius: 25px;
-      margin-right: 13px;
-      border: none;
-     
-    }
-    ::placeholder{
-      padding-left: 50px;
-    }
-    
-  
-    .btn{
-padding: 13px 32px;
-font-family: Satoshi;
-font-size: 16px;
-font-weight: 500;
-
-color:#FFFFFF ;
-background-color:
-#000000;
-@media ( max-width: 767px){
-  font-weight: 400px;
-  font-size: 14px;
-}
-&:hover{
-
-
-
-  color: #000000;
-  
-  background-color:
-  #F0F0F0;
-
-transition: 0.6px;
-
-}
-    }
-  }
-  i{
-    color:#FFFFFF ;
-    margin-left: 10px;
-  }
-
-  
-  a{
-
-    margin-top: 43px;
-    padding: 13px ;
-    border-radius: 25px;
-    display: block;
-    font-family: Satoshi;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 21.6px;
-    text-align: center;
-    color:#FFFFFF ;
-    background-color:
- 
-    #000000;
-    &:hover{
-    
-    
-    
-      color: #000000;
-      
-      background-color:
-      #F0F0F0;
-    
-    transition: 0.6px;
-
-    i{
-      color:#000000 ;
-    }
-    
-    }
-
-  }
-}
-
-
-
-  
-}
-
-
-
-
-//  end cart
-
-    
-
-
-  
-  .casual{
-    .compound{
-      margin-top: -50px;
-      @media  (max-width: 767px ){
-
-        margin-top: 10px;
-        .box{
-          margin-top: 20px;
         }
 
-      }
-.rorl{
-  padding-top: 20px;
-  border-top: 1px solid #0000001A ;
-  margin-top: 32px;
-}
-    }
+        padding: 20px 24px;
 
-    .popo{
-
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .hide{
-        display: none;
-      }
-      @media  (max-width: 767px ){
-h5{
-
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32.4px;
-  
-
-}
-        .visible{
-
-display: none;
+        border: 1px solid #0000001a;
+        .vector1 {
+            border-bottom: 1px solid #0000001a;
+            padding-bottom: 24px;
+            align-items: center;
+            span {
+                font-family: Satoshi;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 27px;
+                text-align: left;
+                color: #000000;
+            }
         }
 
+        .vector2 {
+            border-bottom: 1px solid #0000001a;
+            padding-bottom: 22.5px;
+        }
 
-        .hide{
-        
+        .vector,
+        .vector2 {
+            margin-top: 22.5px;
 
-          display: block;
-          
+            i {
+                color: #00000099;
+            }
+            span {
+                font-family: Satoshi;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: left;
+                color: #00000099;
+            }
+        }
+
+        .color {
+            img {
+                width: 37px;
+                height: 37px;
+
+                margin: auto;
+            }
+        }
+        .size {
+            .bu {
+                display: flex;
+                flex-wrap: wrap;
+                .btn {
+                    background-color: #f0f0f0;
+                    font-family: Satoshi;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18.9px;
+                    text-align: left;
+                    color: #00000099;
+                    padding: 10px 22px;
+                    margin-right: 5px;
+                    margin-top: 8px;
+                    &:hover {
+                        color: #ffffff;
+                        background-color: #000000;
+                        max-width: fit-content;
+                    }
                 }
-
-      }
-
-
-   
-
-      .popover {
-        position: relative;
-        display: none;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        padding: 10px;
-        border-radius: 5px;
-        z-index: 1;
-      }
-      
-      .popover.show {
-        display: block;
-      }
-
-
-
-
-h5{
-
-  font-family: Satoshi;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 43.2px;
-  text-align: left;
-  
-}
-p{
-
-  font-family: Satoshi;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 21.6px;
-  text-align: left;
-color: #00000099;  
-}
-button{
-
-  font-family: Satoshi;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 21.6px;
-  text-align: left;
-  border: none;
-  background-color: white;
-  
-
-
-}
-    }
-.form{
-  border: none;
-
-  font-family: Satoshi;
-font-size: 16px;
-font-weight: 400;
-line-height: 21.6px;
-text-align: left;
-color:#00000099 ;
-margin-top: 24px;
-margin-bottom: 24px;
-
-}
-
-span{
-  font-family: Satoshi;
-font-size: 16px;
-font-weight: 400;
-line-height: 21.6px;
-text-align: left;
-color: #000000;
-
-}
-    .filters{
-
-      .accordion{
-        border: none;
-
-        .accordion-button{
-         
-background-color: white;
+            }
         }
+        .dress {
+            .btn {
+                background-color: #f0f0f0;
+                font-family: Satoshi;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18.9px;
+                text-align: left;
+                color: #00000099;
+                padding: 14.5px 67.5px;
+                margin-right: 5px;
+                margin-top: 8px;
+                &:hover {
+                    transition: 0.6s;
 
+                    color: #ffffff;
+                    background-color: #000000;
+                    max-width: fit-content;
+                }
+            }
+        }
     }
-
-
-      padding:20px 24px  ;
-
-    border: 1px solid #0000001A;
-.vector1{
-  border-bottom: 1px solid #0000001A;
-padding-bottom: 24px;
-align-items: center;
-span{
-  font-family: Satoshi;
-font-size: 20px;
-font-weight: 700;
-line-height: 27px;
-text-align: left;
-color: #000000;
 }
-
-}
-
-.vector2{
-    
-  border-bottom: 1px solid #0000001A;
-padding-bottom: 22.5px;
-
-
-}
-
-.vector,.vector2{
-  margin-top: 22.5px;
-
-
-
-  i{
-
-    color: #00000099;
-  }
-span{
-
-  font-family: Satoshi;
-font-size: 16px;
-font-weight: 400;
-line-height: 21.6px;
-text-align: left;
-color: #00000099;
-
-}
-
-}
-
-.color{
-  img{
-  
-    width: 37px;
-    height: 37px;
-  
-    
-  
-  margin:auto;
-  }
-  
-  }
-.size{
-.bu{
-display: flex;
-flex-wrap: wrap;
-.btn{
-  background-color: #F0F0F0;
-  font-family: Satoshi;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18.9px;
-  text-align: left;
-  color: #00000099;
-  padding: 10px 22px;
-  margin-right: 5px;
-  margin-top: 8px;
-  &:hover{
-
-    color:#FFFFFF ;
-    background-color: #000000;
-    max-width: fit-content;
-  }
-  
-}
-
-
-
-}
-}  
-.dress{
-
-  .btn{
-    background-color: #F0F0F0;
-    font-family: Satoshi;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.9px;
-    text-align: left;
-    color: #00000099;
-    padding: 14.5px 67.5px;
-    margin-right: 5px;
-    margin-top: 8px;
-    &:hover{
-      transition: 0.6s;
-
-      color:#FFFFFF ;
-      background-color: #000000;
-      max-width: fit-content;
-    }
-    
-  }
-  
-
-}
-
-    }
-
-
-    
-
-  }
