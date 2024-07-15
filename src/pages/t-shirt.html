@@ -27,19 +27,10 @@
                 <option value="3">Three</option>
             </select>
             <span>T-shirts</span>
-
         </form>
-
-
         <div class="pic-Graphic d-flex ">
-
-
             <div class="pic">
-
-
                 <div class="big-small">
-
-
                     
     <div class="small">
         <div>         <img src="../assets/images/image 2.png" alt="">
@@ -52,15 +43,8 @@
     <div class="big">
         <img src="../assets/images/image 1.png" alt="">
     </div>
-                   
-
                 </div>
-
-
-
-
             </div>
-
              <div class="Graphic"> 
                 <h2> One Life Graphic T-shirt </h2>
                 <div class="star d-flex justify-content-between ">
@@ -114,20 +98,10 @@
                     <button class="btn ">  <i class="fa-solid fa-minus"></i><span>1</span> <i class="fa-solid fa-plus"></i> </button>
                     <button class="btn ">Add to Cart</button>
                 </div> 
-
-
             </div>
-
         </div>
-
     </div>
-   
 </div>
-
-
-
-
-
  <div class="center">
     <div class="container">
         <span>Product Details</span>
@@ -136,8 +110,6 @@
     </div>
     
 </div> 
-
-
 <section class="all-reviews">
 
     <div class="container">
@@ -344,20 +316,12 @@
 </div>
 
 </section>
-  
-
-
- <div class="compound"> 
-
-    <h2> You might also like</h2>
-
-    <div class="container  ">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row   ">
-                    <div class="mb-3 col-xl-3 col-lg-6 col-md-6 ">
-        
+            <section class="t-shirt-compound  position-relative">
+                <div class="container  ">
+                    <h2> You might also like</h2>
+                    <div class="main-slider">
+                        {% for i in range(0, 11) %}
+                        <div class="slide-item">        
                         <div class="box">
                             <img src="../assets/images/Frame 32 (3).png" alt="">
                             <div class="content">
@@ -378,7 +342,8 @@
         
                         </div>
                     </div>
-                    <div class="mb-3 col-xl-3 col-lg-6 col-md-6  ">
+                    <div class="slide-item">
+
         
                         <div class="box">
                             <img src="../assets/images/Frame 33 (3).png" alt="">
@@ -397,7 +362,8 @@
         
                         </div>
                     </div>
-                    <div class="mb-3 col-xl-3 col-lg-6 col-md-6  ">
+                    <div class="slide-item">
+
         
                         <div class="box">
                             <img src="../assets/images/Frame 34 (3).png" alt="">
@@ -416,7 +382,8 @@
         
                         </div>
                     </div>
-                    <div class="mb-3 col-xl-3 col-lg-6 col-md-6 ">
+                    <div class="slide-item">
+
         
                         <div class="box">
                             <img src="../assets/images/Frame 38 (3).png" alt="">
@@ -438,13 +405,8 @@
         
                         </div>
                     </div>
-        
-        
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row   ">
-                    <div class="mb-3 col-xl-3 col-lg-6 col-md-6 ">
+                    <div class="slide-item">
+
         
                         <div class="box">
                             <img src="../assets/images/Frame 38 (3).png" alt="">
@@ -465,8 +427,9 @@
                             </div>
         
                         </div>
-                    </div>
-                    <div class="mb-3 col-xl-3 col-lg-6 col-md-6  ">
+                    </div>       
+                        <div class="slide-item">
+
         
                         <div class="box">
                             <img src="../assets/images/Frame 34 (3).png" alt="">
@@ -485,8 +448,8 @@
         
                         </div>
                     </div>
-                    <div class="mb-3 col-xl-3 col-lg-6 col-md-6  ">
-        
+                    <div class="slide-item">
+
                         <div class="box">
                             <img src="../assets/images/Frame 33 (3).png" alt="">
                             <div class="content">
@@ -504,9 +467,8 @@
         
                         </div>
                     </div>
+                    <div class="slide-item">
 
-                    <div class="mb-3 col-xl-3 col-lg-6 col-md-6 ">
-        
                         <div class="box">
                             <img src="../assets/images/Frame 32 (3).png" alt="">
                             <div class="content">
@@ -526,33 +488,18 @@
                             </div>
         
                         </div>
+       
+       
                     </div>
-                  
-                
-             
-        
-        
-                </div>
-              </div>
-             
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control" aria-hidden="true">                      <i  class=" text-black fa-solid fa-arrow-left"></i>
-              </span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true">                  <i  class=" text-black  fa-solid fa-arrow-right"></i>
-              </span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+                    {% endfor %}
 
-      
 
-    </div>
+                 </div>
 
-</div> 
+                 </div>
+
+
+</section>
 
 
 {% endblock content %}

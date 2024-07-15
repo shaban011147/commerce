@@ -19,3 +19,4 @@ yarn.lock
 .idea/workspace.xml
 .sass-cache
 /dist/*
+node_modules

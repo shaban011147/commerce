@@ -217,6 +217,36 @@ $(".slider-three-compound .main-slider").slick({
     ]
 });
 
+
+$(".t-shirt-compound .main-slider").slick({
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  arrows: true,
+  infinite: true,
+  prevArrow: $(".landing .prev-arrow"),
+  nextArrow: $(".landing .prev-next"),
+
+
+  responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+       
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+         
+          slidesToShow: 1
+        }
+      }
+    ]
+});
+
+
+
     // document
     //     .getElementById("popover-btn")
     //     .addEventListener("click", function () {
