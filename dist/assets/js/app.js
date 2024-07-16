@@ -19130,8 +19130,8 @@
 	    jquery(".search-collapse").toggleClass("show");
 	  });
 	  jquery(".landing .main-slider").slick({
-	    slidesToShow: 2,
-	    slidesToScroll: 2,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
 	    arrows: true,
 	    infinite: true,
 	    prevArrow: jquery(".landing .prev-arrow"),
@@ -19139,12 +19139,12 @@
 	    responsive: [{
 	      breakpoint: 768,
 	      settings: {
-	        slidesToShow: 2
+	        slidesToShow: 1
 	      }
 	    }, {
 	      breakpoint: 480,
 	      settings: {
-	        slidesToShow: 2
+	        slidesToShow: 1
 	      }
 	    }]
 	  });

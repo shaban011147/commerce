@@ -7,9 +7,11 @@
 
 <section class="landing slider position-relative ">
     <div class="container  ">
-    <div class="main-slider ">
-        {% for i in range(0, 3) -%}
-                    <div class="mb-3 col-xl-6 col-lg-6 col-md-12">
+        <div class="main-slider ">
+            {% for i in range(0, 3) -%}
+            <div class="slide-item">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 ">
                         <h2>FIND CLOTHES THAT MATCHES YOUR STYLE</h2>
                         <p> Browse through our diverse range of meticulously crafted garments, designed
                             to bring out your individuality and cater to your sense of style. </p>
@@ -29,16 +31,25 @@
                                 <span>Happy Customers</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="mb-3 col-xl-6 col-lg-6 col-md-12">
-                        <img src="../assets/images/Mask group (1).png" alt="">
-                    </div>
-        {%- endfor %}
-    </div>
-    {% include 'component/slider-arrows.html' %}
-</div>
 
-</section> 
+                    </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 order-1  ">
+
+                        <img src="../assets/images/Mask group (1).png" alt="">
+
+                    </div>
+                </div>
+
+            </div>
+
+            {%- endfor %}
+        </div>
+
+        {% include 'component/slider-arrows.html' %}
+    </div>
+
+</section>
 <section class="logs">
     <img src="../assets/images/1.png" alt="">
     <img src="../assets/images/2.png" alt="">
@@ -57,7 +68,7 @@
             <div class="slide-item">
                 <div class=" compound">
                     <div class="box">
-                        <a href="t-shirt.html">  <img src="/assets\images\Frame 33 (2).png" alt=""></a>
+                        <a href="t-shirt.html"> <img src="/assets\images\Frame 33 (2).png" alt=""></a>
                         <div class="content">
                             <h5>T-SHIRT WITH TAPE DETAILS </h5>
                             <div class="star">
@@ -125,7 +136,7 @@
             <div class="slide-item">
                 <div class=" compound">
                     <div class="box">
-                        <a href="t-shirt.html">  <img src="assets\images\Frame 72.png " alt=""></a>
+                        <a href="t-shirt.html"> <img src="assets\images\Frame 72.png " alt=""></a>
                         <div class="content">
                             <h5>T-SHIRT WITH TAPE DETAILS </h5>
                             <div class="star">
@@ -155,7 +166,7 @@
 
     {% include 'component/slider-arrows.html' %}
 
-</section> 
+</section>
 
 
 <section class="slider-compound  position-relative">
@@ -191,8 +202,8 @@
             {% for item in data %}
             <div class="slide-item">
                 <div class=" compound">
-                         <div class="box">
-                       <img src="{{item.image}}" alt="">
+                    <div class="box">
+                        <img src="{{item.image}}" alt="">
                         <div class="content">
                             <h5>{{item.title}} </h5>
                             <div class="star">
@@ -222,9 +233,9 @@
 
     {% include 'component/slider-arrows.html' %}
 
-</section> 
+</section>
 
-  <div class="container"> 
+<div class="container">
 
     <section class="browse">
 
@@ -262,121 +273,121 @@
 
     <div class="main-slider">
         {% for i in range(0, 11) -%}
-                        <div class="slide-item">
-                            <div class="box">
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <span> Sarah M.</span>
-                            <img src="../assets/images/Vector (2).svg" alt="">
-                            <p> "I'm blown away by the quality and style of the clothes I received from Shop.co.
-                                From casual wear to elegant
-                                dresses, every piece I've bought has exceeded my expectations.” </p>
-                        </div>
-                    </div>
+        <div class="slide-item">
+            <div class="box">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span> Sarah M.</span>
+                <img src="../assets/images/Vector (2).svg" alt="">
+                <p> "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                    From casual wear to elegant
+                    dresses, every piece I've bought has exceeded my expectations.” </p>
+            </div>
+        </div>
 
-                        <div class="slide-item">
-                            <div class="box">
+        <div class="slide-item">
+            <div class="box">
 
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <span> Sarah M.</span>
-                            <img src="../assets/images/Vector (2).svg" alt="">
-                            <p> "I'm blown away by the quality and style of the clothes I received from Shop.co.
-                                From casual wear to elegant
-                                dresses, every piece I've bought has exceeded my expectations.” </p>
-                        </div>
-                    </div>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span> Sarah M.</span>
+                <img src="../assets/images/Vector (2).svg" alt="">
+                <p> "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                    From casual wear to elegant
+                    dresses, every piece I've bought has exceeded my expectations.” </p>
+            </div>
+        </div>
 
-                        <div class="slide-item">
-                            <div class="box">
+        <div class="slide-item">
+            <div class="box">
 
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <span> Sarah M.</span>
-                            <img src="../assets/images/Vector (2).svg" alt="">
-                            <p> "I'm blown away by the quality and style of the clothes I received from Shop.co.
-                                From casual wear to elegant
-                                dresses, every piece I've bought has exceeded my expectations.” </p>
-                        </div>
-                    </div>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span> Sarah M.</span>
+                <img src="../assets/images/Vector (2).svg" alt="">
+                <p> "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                    From casual wear to elegant
+                    dresses, every piece I've bought has exceeded my expectations.” </p>
+            </div>
+        </div>
 
-                        <div class="slide-item">
-                            <div class="box">
+        <div class="slide-item">
+            <div class="box">
 
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
 
-                            </div>
-                            <span> Alex K.</span>
-                            <img src="../assets/images/Vector (2).svg" alt="">
-                            <p>"Finding clothes that align with my personal style used to be a challenge until
-                                I discovered Shop.co. The range of options they offer is truly
-                                remarkable, catering to a variety of tastes and occasions.” </p>
-                            </div>
+                </div>
+                <span> Alex K.</span>
+                <img src="../assets/images/Vector (2).svg" alt="">
+                <p>"Finding clothes that align with my personal style used to be a challenge until
+                    I discovered Shop.co. The range of options they offer is truly
+                    remarkable, catering to a variety of tastes and occasions.” </p>
+            </div>
 
-                        </div>
-                        <div class="slide-item">
-                            <div class="box">
+        </div>
+        <div class="slide-item">
+            <div class="box">
 
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <span> James L.</span>
-                            <img src="../assets/images/Vector (2).svg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span> James L.</span>
+                <img src="../assets/images/Vector (2).svg" alt="">
 
-                            <p> "As someone who's always on the lookout for unique fashion pieces,
-                                I'm thrilled to have stumbled upon Shop.co. The selection of
-                                clothes is not only diverse but also on-point with the latest trends.” </p>
-                        </div>
-                    </div>
+                <p> "As someone who's always on the lookout for unique fashion pieces,
+                    I'm thrilled to have stumbled upon Shop.co. The selection of
+                    clothes is not only diverse but also on-point with the latest trends.” </p>
+            </div>
+        </div>
 
-                        <div class="slide-item">
-                            <div class="box">
+        <div class="slide-item">
+            <div class="box">
 
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <span> James L.</span>
-                            <img src="../assets/images/Vector (2).svg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span> James L.</span>
+                <img src="../assets/images/Vector (2).svg" alt="">
 
-                            <p> "As someone who's always on the lookout for unique fashion pieces,
-                                I'm thrilled to have stumbled upon Shop.co. The selection of
-                                clothes is not only diverse but also on-point with the latest trends.” </p>
-                        </div>
-                    </div>
+                <p> "As someone who's always on the lookout for unique fashion pieces,
+                    I'm thrilled to have stumbled upon Shop.co. The selection of
+                    clothes is not only diverse but also on-point with the latest trends.” </p>
+            </div>
+        </div>
 
-                        {% endfor %}
+        {% endfor %}
 
-                    </div>
+    </div>
 </section>
- 
+
 
 
 {% endblock content %}

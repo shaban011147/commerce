@@ -21,8 +21,8 @@ import "slick-carousel";
     });
 
     $(".landing .main-slider").slick({
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         arrows: true,
         infinite: true,
         prevArrow: $(".landing .prev-arrow"),
@@ -34,14 +34,14 @@ import "slick-carousel";
               breakpoint: 768,
               settings: {
              
-                slidesToShow: 2
+                slidesToShow: 1
               }
             },
             {
               breakpoint: 480,
               settings: {
                
-                slidesToShow: 2
+                slidesToShow: 1
               }
             }
           ]
@@ -73,7 +73,6 @@ import "slick-carousel";
             }
           ]
     });
-
 
     $(".slider-our-happy .main-slider").slick({
       slidesToShow: 3.75,
